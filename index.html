@@ -12,6 +12,14 @@ body {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtW0BJx6Vw40YC8xz-zSxqrv-w9MtH3j-lcA&usqp=CAU');
 }
 
+@font-face {
+    font-family: 'nasalizationregular';
+    src: url('webfontkit-20231018-102806/nasalization-rg-webfont.woff2') format('woff2'),
+         url('webfontkit-20231018-102806/nasalization-rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 </style>
 <script>
 	import com.google.cloud.recaptchaenterprise.v1.RecaptchaEnterpriseServiceClient;
@@ -108,7 +116,7 @@ public class CreateAssessment {
 	<link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
-	<h1 style="color: white;">Welome to my website!!!</h1>
+	<h1 style="color: white; font-family: nasalizationregular;">Welome to my website!!!</h1>
 	<h2 style="color: white">(More will come soon)</h2>
   <script src="https://accounts.google.com/gsi/client" async></script>
     <div id="g_id_onload"
